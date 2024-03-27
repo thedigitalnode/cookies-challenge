@@ -15,5 +15,5 @@ app.post('/login', function (req, res) {
 
 //Use Postman to Get the JSON object with the name of the user at the route /hello
 app.get('/hello', function (req, res) {
-  res.send(`Hello, ${req.cookies.username}`)
+  res.send(`Welcome ${req.cookies.username}!`)
 })
